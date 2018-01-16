@@ -92,11 +92,11 @@ The expectation is that everyone in a group is chiefly occupied with writing cod
 </p>
 
 **Github**
-* Designate a team member to create new Github Repo e.g "VenueTips" repo
-* Create the following branches: 
-* ```prod``` - this is the production branch we will be reviewing as your final submission 
-* ```dev-group-member-name``` - this is your personal branch. Use this branch will working on your feature set. After you're done meet with team members to code review and merge to the ```qa``` branch 
-* ```qa``` - this branch should be used for testing your app, QA (quality assurance) branch. After the team has reviewed and tested on the ```qa``` branch your then merge to the production branch ```prod```
+* Designate a team member to create a new Github Repo e.g "VenueTips" repo
+* Create the following branches: ```prod``` ```qa``` and ```dev``` 
+* ```prod``` - this is the production branch that we will be reviewing as your final project submission 
+* ```dev-group-member-name``` - this is your personal branch. Use this branch while working on your feature set. After you're done meet with team members to code review and merge your changes to the ```qa``` branch 
+* ```qa``` - this branch should be used for testing your app, QA (quality assurance) branch. After the team has reviewed and tested on the ```qa``` branch you group will then merge to the production branch ```prod```
 
 
 
