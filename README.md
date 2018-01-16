@@ -171,6 +171,15 @@ GET https://api.foursquare.com/v2/venues/VENUE_ID/photos
 |Gestures are used as needed where uses expect such behavior|2 Points|
 |Animations are included while using best practices|4 Points|
 
+Total Points: 106 points 
+
+|Bonus Features | Point|
+|:----|:---|
+|Update a Venue|2 Points|
+|Update a Collection|2 Points|
+|Delete venue from a collection|2 Points|
+|Delete Collection|2 Points|
+
 
 
 
