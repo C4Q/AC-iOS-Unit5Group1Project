@@ -91,6 +91,15 @@ The expectation is that everyone in a group is chiefly occupied with writing cod
 <img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/get-directions.gif" width="358" height="626">
 </p>
 
+**Github**
+* Designate a team member to create new Github Repo e.g "VenueTips" repo
+* Create the following branches: 
+* ```prod``` - this is the production branch we will be reviewing as your final submission 
+* ```dev-group-member-name``` - this is your personal branch. Use this branch will working on your feature set. After you're done meet with team members to code review and merge to the ```qa``` branch 
+* ```qa``` - this branch should be used for testing your app, QA (quality assurance) branch. After the team has reviewed and tested on the ```qa``` branch your then merge to the production branch ```prod```
+
+
+
 **Apply for a Foursquare Developer Account and API Key:**  
 https://developer.foursquare.com/docs/api/getting-started  
 
