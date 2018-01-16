@@ -47,7 +47,7 @@ The expectation is that everyone in a group is chiefly occupied with writing cod
 |:-------------:|:------------:|
 | Technical Lead | In charge of maintaining the health of master branch and ensure that master is always safe to pull from.  Makes final decisions on project architecture in conversation with other team members |
 | Project Manager | Is responsible for the health of the Trello or board.  Organizes daily standups |
-| UI/UX | Is responsible for the esign and flow of the app |
+| UI/UX | Is responsible for the design and flow of the app |
 | QA | Is responsible for identifying bugs on master and that the final product is bug free |
 
 
