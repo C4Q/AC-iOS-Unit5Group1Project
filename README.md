@@ -1,0 +1,132 @@
+## Unit 5 Group Project 
+
+## Overview 
+
+Use MapKit and CoreLocation to build out a Foursquare like app with the following spcecifications:
+* User can search for a venue
+* The app shows results those results with annotations on a map
+* The user can toggle between a map view and a list view
+* If the user denies access to location, search still works
+* User can create a collection 
+* User can add venues to a collection 
+
+* Each group member is responsible for Github commits to this project 
+* Use Github and ```branch-group-membername``` in development
+* When your group is ready to commit to master merge your changes to the ```master``` branch 
+* We will be observing your commits when grading so use best practices when writing commits 
+* Use animations in you app (refer to the [Human Interface guidlines](https://developer.apple.com/ios/human-interface-guidelines/visual-design/animation/))  
+
+|User Allowing Access|User Denying Location Access|
+|:-------------:|:------------:|
+|<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/request-location-access-allow.gif" width="358" height="626">|<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/request-location-access-denied.gif" width="358" height="626">|  
+
+<br><br>
+<p align="center"><b>User can search for a venue and toggle between the default search map or a list</b></p>
+<p align="center">
+<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/search-for-venue.gif" width="358" height="626">
+</p>
+
+<br><br>
+<p align="center"><b>User can change search location</b></p>
+<p align="center">
+<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/change-location.gif" width="358" height="626">
+</p>
+
+<br><br>
+<p align="center"><b>User can create a collection</b></p>
+<p align="center">
+<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/create-collection.gif" width="358" height="626">
+</p>
+
+<br><br>
+<p align="center"><b>User can add a venue to a collection</b></p>
+<p align="center">
+<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/add-to-collection.gif" width="358" height="626">
+</p>
+
+<br><br>
+<p align="center"><b>User can create a tip about a venue</b></p>
+<p align="center">
+<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/create-a-tip.gif" width="358" height="626">
+</p>
+
+<br><br>
+<p align="center"><b>User can get directions to a venue</b></p>
+<p align="center">
+<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/get-directions.gif" width="358" height="626">
+</p>
+
+**Apply for a Foursquare Developer Account and API Key:**  
+https://developer.foursquare.com/docs/api/getting-started  
+
+[Foursquare Endpoint Overview](https://developer.foursquare.com/docs/api/endpoints)  
+
+**Venue Search Endpoint:**  
+Request: 
+```
+GET https://api.foursquare.com/v2/venues/search
+```
+
+**Venue Photos Endpoint:**  
+Request: 
+```
+GET https://api.foursquare.com/v2/venues/VENUE_ID/photos
+```
+
+## Rubric 
+
+|Architecture | Point|
+|:----|:---|
+|Variable Naming and Readability|4 Points|
+|App uses AutoLayout correctly for all iPhones in portrait|4 Points|
+|Proper Object Oriented Priciples are applied|4 Points|
+|App uses MVC Design Patterns|4 Points|
+|Proper use of Access Modifiers|4 Points|
+|Proper use of Activity Indicators where applicable|4 Points|
+|Keyboard Handling|4 Points|
+
+
+|App Specific | Point|
+|:----|:---|
+|App shows coffee shops by Search in the case of location denial access|4 Points|
+|Clicking on directions should open Apple Maps|4 Points|
+|User should be able to create a tip about a venue|4 Points|
+|User should be able to save a venue|8 Points|
+
+
+|Group Specific | Point|
+|:----|:---|
+|Group Presentation|10 Points|
+|README|4 Points|
+|Gif|4 Points|
+
+
+|Github | Point|
+|:----|:---|
+|Each Group member created their own branch in this project|2 Points|
+|Commits from Group members|4 Points|
+|All branches were merged to ```master```|2 Points|
+
+
+|Cocoapods | Point|
+|:----|:---|
+|Use of SnapKit for ProgrammableUI layouts|4 Points|
+|Use of Alamofire for Networking|4 Points|
+
+
+|Error Handling and Network Handling | Point|
+|:----|:---|
+|Loss of Network Handling|4 Points|
+|Proper error handling and notification to user|4 Points|
+|Use empty states in app|4 Points|
+|Proper handling of denial of location services request from user|4 Points|
+
+
+|Gestures and Animations | Point|
+|:----|:---|
+|Gestures are used as needed where uses expect such behavior|2 Points|
+|Animations are included while using best practices|4 Points|
+
+
+
+
