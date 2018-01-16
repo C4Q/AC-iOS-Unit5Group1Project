@@ -16,6 +16,41 @@ Use MapKit and CoreLocation to build out a Foursquare like app with the followin
 * We will be observing your commits when grading so use best practices when writing commits 
 * Use animations in you app (refer to the [Human Interface guidlines](https://developer.apple.com/ios/human-interface-guidelines/visual-design/animation/))  
 
+
+
+## Groupwork
+
+This is our first group project.  There are three large things to be aware of for group projects:
+
+1. Git
+2. Trello
+3. Group Roles
+
+### Git
+
+Unlike homework in the past where you forked a C4Q repo, then committed and pushed at the end, a group project must be more colloborative.
+
+Each group member should have their own *branch* with their name.  The *master* branch should only contain a working build of the project.  Each group member will work on their separate branches, then push their work to the master branch when they have completed a feature.  But how do you know what to work on?
+
+### Trello
+
+Each group member should have an account on [Trello](https://trello.com/) and the group should have a well maintained list of who is working on what task.  Without this, two people might try to edit the same file and create merge conflicts.
+
+
+### Group Roles
+
+The expectation is that everyone in a group is chiefly occupied with writing code.  In addition to that, the following roles are important for someone to have explicit ownership of:
+
+|Role|Responsibilities|
+|:-------------:|:------------:|
+| Technical Lead | In charge of maintaining the health of master branch and ensure that master is always safe to pull from.  Makes final decisions on project architecture in conversation with other team members |
+| Project Manager | Is responsible for the health of the Trello or board.  Organizes daily standups |
+| UI/UX | Is responsible for the esign and flow of the app |
+| QA | Is responsible for identifying bugs on master and that the final product is bug free |
+
+
+## Gifs
+
 |User Allowing Access|User Denying Location Access|
 |:-------------:|:------------:|
 |<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/request-location-access-allow.gif" width="358" height="626">|<img src="https://github.com/C4Q/AC-iOS-Unit5GroupProject/blob/master/Images/request-location-access-denied.gif" width="358" height="626">|  
