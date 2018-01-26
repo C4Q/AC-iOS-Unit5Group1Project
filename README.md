@@ -136,7 +136,7 @@ GET https://api.foursquare.com/v2/venues/VENUE_ID/photos
 
 |App Specific | Point|
 |:----|:---|
-|App shows coffee shops by Search in the case of location denial access|4 Points|
+|If user denies access Search still works|4 Points|
 |Clicking on directions should open Apple Maps|4 Points|
 |User should be able to create a tip about a venue|4 Points|
 |User should be able to save a venue|8 Points|
